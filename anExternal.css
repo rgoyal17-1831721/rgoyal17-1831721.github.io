@@ -1,0 +1,45 @@
+body {
+    padding: 10px;
+}
+
+#my-pic {
+    height: 300px;
+    width: 300px;
+    float: right;
+    padding: 20px;
+    margin-right: 50px;
+    border-radius: 25px;
+    border: 2px solid black;
+}
+
+#para1 {
+    color: darkgreen;
+    font-family: 'Courier New', Courier, monospace;
+    font: 500;
+}
+
+#para2 {
+    color: darkblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font: 900;
+    border-style: dotted;
+}
+
+.hobbies {
+    height: 50px;
+    width: 50px;
+    margin: 20px;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+}
