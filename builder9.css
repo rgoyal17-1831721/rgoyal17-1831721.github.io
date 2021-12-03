@@ -1,0 +1,52 @@
+
+#body{
+	background-color: antiquewhite;
+    padding: 5px;
+}
+
+img {
+	height: 100px;
+	width: 120px;
+	padding: 10px;
+}
+
+#Header{
+	border: solid 2px black;
+	text-align: center;
+	background-color: bisque;
+}
+
+h3{
+	font-size: 40px;
+	font-family: "Passion One";
+	margin-bottom: 0px;
+}
+
+p{
+	color: white;
+	font-family: "Arial"; 
+	font-weight: bold; 
+}
+
+#Header a{
+    font-size: 30px;
+	font-family: "Passion One";
+    color: black;
+    margin-right: 20px;
+}
+
+#LeftNav{
+	float: left;
+	width: 500px;
+	border: solid 2px black;
+	padding: 10px;
+	background-color: bisque; 
+    padding-bottom: 50px;
+}
+
+#Content{
+    float: left;
+	margin: 10px; 
+	border: solid 1px black;
+	padding: 5px;
+}

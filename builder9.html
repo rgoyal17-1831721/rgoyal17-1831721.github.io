@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+	<head> 
+		<title>Soccer Statistics</title>
+		<link rel="stylesheet" type="text/css" href="index.css" />
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	</head>
+
+	<body id="body">
+		<div id = "Header">
+		   <table>
+		      <tr>
+		         <td><img src="https://www.worldatlas.com/r/w1200/upload/c0/36/5b/shutterstock-1666907254.jpg"></img></td>
+		         <td><h2><a href="#">Player Statistics</a></h2></td>
+				 <td><h2><a href="#">Compare Players</a></h2></td>
+				 <td><h2><a href="#">Favorite Players</a></h2></td>
+		      </tr>
+		   </table>
+		</div>
+		
+		<div id = "LeftNav">
+			<h3> Search Player</h3>
+			<form>
+				<div class="form-group row">
+				  <label class="col-sm-2 col-form-label">Name:</label>
+				  <div class="col-sm-10">
+					<input type="text" class="form-control" placeholder="Enter Name">
+				  </div>
+				</div>
+				<div class="form-group row">
+				  <label class="col-sm-2 col-form-label">Nationality:</label>
+				  <div class="col-sm-10">
+					<input type="text" class="form-control" placeholder="Enter Nationality">
+				  </div>
+				</div>
+				<div class="form-group row">
+					<label class="col-sm-2 col-form-label">Club:</label>
+					<div class="col-sm-10">
+					  <input type="text" class="form-control" placeholder="Enter Club">
+					</div>
+				</div>
+				<div class="form-group row">
+					<label class="col-sm-2 col-form-label">Position:</label>
+					<div class="col-sm-10">
+						<select name = "position" class="form-control">
+							<option value="F">Forward</option>
+							<option value="W">Winger</option>
+							<option value="M">Midfielder</option>
+							<option value="D">Defender</option>
+							<option value="GK">Goalkeeper</option>
+						</select>
+					</div>
+				</div>
+				<div class="form-group row">
+					<label class="col-sm-2 col-form-label">Preferred Foot:</label>
+					<div class="col-sm-10">
+						<select name = "foot" class="form-control">
+							<option value="Right">Right</option>
+							<option value="Left">Left</option>
+						</select>
+					</div>
+				</div>
+				<div class="form-group row">
+					<label class="col-sm-2 col-form-label">Age:</label>
+					<div class="col-sm-10">
+					  <input type="number" class="form-control" placeholder="Enter Age">
+					</div>
+				</div>
+				<button type="submit" class="btn btn-primary mb-2">Submit</button>
+				<button type="button" class="btn btn-warning mb-2">Reset</button>
+			</form>		
+		</div>
+		
+		<div id = "Content">
+			<table class="table table-striped">
+				<thead>
+					<tr>
+						<th scope="col">#</th>
+						<th scope="col">Image</th>
+						<th scope="col">Name</th>
+						<th scope="col">Country</th>
+						<th scope="col">Club</th>
+						<th scope="col">Preferred Position(s)</th>
+						<th scope="col">Foot</th>
+						<th scope="col">Age</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<th scope="row">1</th>
+						<td><img src=https://futhead.cursecdn.com/static/img/20/players/158023.png /></td>
+						<td>Lionel Messi</td>
+						<td>Argentina</td>
+						<td>Paris Saint-Germain FC</td>
+						<td>RW</td>
+						<td>Left</td>
+						<td>33</td>
+					</tr>
+					<tr>
+						<th scope="row">2</th>
+						<td><img src=https://futhead.cursecdn.com/static/img/20/players/20801.png /></td>
+						<td>Cristiano Ronaldo</td>
+						<td>Portugal</td>
+						<td>Manchester United FC</td>
+						<td>ST</td>
+						<td>Right</td>
+						<td>35</td>
+					</tr>
+					<tr>
+						<th scope="row">3</th>
+						<td><img src=https://futhead.cursecdn.com/static/img/20/players/190871.png /></td>
+						<td>Neymar Jr</td>
+						<td>Brazil</td>
+						<td>Paris Saint-Germain FC</td>
+						<td>LW</td>
+						<td>Right</td>
+						<td>30</td>
+					</tr>
+					<tr>
+						<th scope="row">4</th>
+						<td><img src=https://futhead.cursecdn.com/static/img/20/players/203376.png /></td>
+						<td>Virgil Van-Djik</td>
+						<td>Netherlands</td>
+						<td>Liverpool FC</td>
+						<td>CB</td>
+						<td>Right</td>
+						<td>31</td>
+					</tr>
+					<tr>
+						<th scope="row">5</th>
+						<td><img src=https://futhead.cursecdn.com/static/img/20/players/200389.png /></td>
+						<td>Jan Oblak</td>
+						<td>Slovenia</td>
+						<td>Atletico Madrid</td>
+						<td>GK</td>
+						<td>Right</td>
+						<td>28</td>
+					</tr>
+					<tr>
+						<th scope="row">6</th>
+						<td><img src=https://futhead.cursecdn.com/static/img/20/players/192985.png /></td>
+						<td>Kevin De Bruyne</td>
+						<td>Belgium</td>
+						<td>Manchecter City FC</td>
+						<td>CAM</td>
+						<td>Right</td>
+						<td>29</td>
+					</tr>
+					<tr>
+						<th scope="row">7</th>
+						<td><img src=https://futhead.cursecdn.com/static/img/20/players/188545.png /></td>
+						<td>Robert Lewandowski</td>
+						<td>Poland</td>
+						<td>Bayern</td>
+						<td>ST</td>
+						<td>Right</td>
+						<td>30</td>
+					</tr>
+					<tr>
+						<th scope="row">8</th>
+						<td><img src=https://futhead.cursecdn.com/static/img/20/players/183277.png /></td>
+						<td>Eden Hazard</td>
+						<td>Belgium</td>
+						<td>Real Madrid</td>
+						<td>LW</td>
+						<td>Right</td>
+						<td>28</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+
+	</body>
+
+</html>
